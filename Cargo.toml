@@ -1,0 +1,15 @@
+[package]
+name = "small_read_only"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A macro to implement getters on a read only struct"
+repository = ""
+readme = "README.md"
+
+[dependencies]
+quote = "1.0.37"
+syn = "2.0.76"
+
+[lib]
+proc-macro = true
